@@ -1,5 +1,5 @@
 # Card-Pop-up-Agreement | [Sharishth](https://github.com/Sharishth)
-Simple example of term agreement pop-up made using HTML, CSS JavaScript
+Simple example of term agreement pop-up made using HTML, CSS JavaScript. [Demo](https://sharishth.github.io/html-Card-Pop-up-Agreement/)
 ---
 - Clicking agree proceeds to close pop-container and continue to page.
 - Clicking disagree proceeds to close tab or exit page.
