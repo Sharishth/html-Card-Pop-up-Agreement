@@ -1,0 +1,58 @@
+html,body{
+    background-color: white;
+}
+
+.rm{
+
+}
+
+.layer-1{
+    z-index: 1;
+}
+.layer-2{
+    z-index: 2;
+}
+.layer-3{
+    z-index: 3;
+}
+
+.pop-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-style: none;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 2em;
+    text-align: center;
+    width: fit-content;
+    
+}
+.button-agree{
+    padding: 10px;
+    border-style: none;
+    font-weight: bolder;
+    color: aliceblue;
+    background-color: rgb(103, 172, 0);
+    font-size: 1.25em;
+    border-radius: 1em;
+    margin-right: 8px;
+    margin-bottom: 2px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.button-disagree{
+    padding: 10px;
+    border-style: none;
+    font-weight: bolder;
+    color: aliceblue;
+    background-color: blue;
+    font-size: 1.25em;
+    border-radius: 1em;
+    margin-left: 8px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
